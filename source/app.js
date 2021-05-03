@@ -11,6 +11,10 @@ app.get('/users', function(req, res){
 	res.send('DevOps - strona Users!');
 	console.log('Zażądano strony Users');
 });
+app.get('/services', function(req, res){
+	res.send('DevOps - strona services!');
+	console.log('Zażądano strony services');
+});
 
 app.listen(3001, function(){
 	console.log('Aplikacja OK');
